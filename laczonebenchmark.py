@@ -269,7 +269,8 @@ class BenchmarkGUI:
         threading.Thread(target=bench_thread, daemon=True).start()
 
 if __name__ == "__main__":
-    logo_url = None  # lub podaj link
+    logo_url = None  # tu moze dam kiedys logo
     root = tk.Tk()
     app = BenchmarkGUI(root, logo_url=logo_url)
     root.mainloop()
+
